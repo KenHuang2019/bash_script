@@ -4,12 +4,15 @@
 # ============================================================= #
 
 # download package information from all configured sources
-echo "=== Updating apt... ==="
-sudo apt-get update -y
 
-# install git
+echo "===================================================== Switch to root ====================================================="
+sudo -i
+
+echo "=== Updating apt... ==="
+apt-get update -y
+
 echo "=== Installing git... ==="
-sudo apt-get install git -y
+apt-get install git -y
 
 # Connect git to github
 echo "=== Configuring git... ==="
@@ -24,3 +27,18 @@ git config --global user.email "${GITHUB_EMAIL}"
 
 echo "=== Git configuraiton done. ==="
 git config --list
+
+echo "=== Installing python3 ==="
+apt-get install python3 -y
+
+echo "=== Installing python3-opencv ==="
+apt-get install python3-opencv -y
+
+echo "=== Installing p7zip-full  ==="
+apt-get install p7zip-full -y
+
+echo "=== Installing dkms ==="
+apt-get install dkms -y
+
+echo "=== Installing curl ==="
+apt-get install curl -y
