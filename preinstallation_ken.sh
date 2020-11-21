@@ -81,7 +81,7 @@ echo "===================================================== Installing Texmaker.
 sudo apt-get install texmaker -y
 
 echo "===================================================== Installing VScode... ====================================================="
-sudo snap install vscode --classic
+sudo snap install code --classic
 
 echo "===================================================== Installing Terminator... ====================================================="
 sudo add-apt-repository ppa:gnome-terminator
