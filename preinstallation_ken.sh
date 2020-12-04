@@ -3,6 +3,9 @@
 # Bash script to install package on a new Linux system (Ubuntu 18.04) #
 # =================================================================== #
 
+# system setting
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
+
 # download package information from all configured sources
 
 echo "===================================================== Updating apt... ====================================================="
