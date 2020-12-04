@@ -27,13 +27,15 @@ then
     # Connect git to github
     echo "===================================================== Configuring git... ====================================================="
 
-    echo "Please enter github username:"
-    read GITHUB_USER;
-    git config --global user.name "${GITHUB_USER}"
+#     echo "Please enter github username:"
+#     read GITHUB_USER;
+#     git config --global user.name "${GITHUB_USER}"
+    git config --global user.name "KenHuang2019"
 
-    echo "Please enter github E-maill:"
-    read GITHUB_EMAIL;
-    git config --global user.email "${GITHUB_EMAIL}"
+#     echo "Please enter github E-maill:"
+#     read GITHUB_EMAIL;
+#     git config --global user.email "${GITHUB_EMAIL}"
+    git config --global user.email "kenhuang2019iii@gmail.com"
 
     echo "===================================================== Git configuraiton done. ====================================================="
     git config --list
