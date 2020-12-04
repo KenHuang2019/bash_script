@@ -5,6 +5,7 @@
 
 # system setting
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 sudo systemctl disable bluetooth.service
 
 # download package information from all configured sources
