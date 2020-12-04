@@ -11,6 +11,9 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 echo "===================================================== Updating apt... ====================================================="
 sudo apt-get update -y
 
+echo "===================================================== Installing ubuntu-drivers... ====================================================="
+sudo ubuntu-drivers autoinstall
+
 echo "===================================================== Installing git... ====================================================="
 sudo apt-get install git -y
 
