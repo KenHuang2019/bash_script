@@ -93,7 +93,7 @@ sudo apt-get update -y
 # sudo apt-get install texmaker -y
 
 # echo "===================================================== Installing VScode... ====================================================="
-# sudo snap install code --classic
+# sudo apt install code --classic
 
 # echo "===================================================== Installing Terminator... ====================================================="
 # sudo add-apt-repository ppa:gnome-terminator
