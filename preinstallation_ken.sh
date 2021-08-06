@@ -86,6 +86,8 @@ sudo apt-get install docker.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
 docker --version
+sudo groupadd docker
+sudo usermod -aG docker $USER
 
 echo "===================================================== Installing LaTex... ====================================================="
 sudo apt-get install texlive-latex-extra -y
